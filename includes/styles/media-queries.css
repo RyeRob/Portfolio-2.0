@@ -1,0 +1,139 @@
+/* --- Media Queries --- */
+
+@media only screen and (min-width: 1920px){
+    .card {
+        width:400px;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    #work {
+        column-gap: 64px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    .landing-inner {
+        right:140px;
+        top:175px;
+    }
+}
+
+@media only screen and (max-width: 1280px){
+    #work {
+        column-gap: 32px;
+    }
+
+    .work-desc {
+        padding:0 0 2rem 0 ;
+    }
+
+    .landing-inner {
+        right:60px;
+        top:175px;
+    }
+    
+}
+
+@media only screen and (max-width: 1024px) {
+    #work {
+        padding-top:5rem;
+        min-height:100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .card {
+        width:60%;
+    }
+
+    #work > div {
+        padding-top:5rem;
+    }
+
+    .work-1,
+    .work-4 {
+        padding-left:0;
+    }
+
+    .work-3,
+    .work-6 {
+        padding-right:0;
+    }
+
+    .work-details1,
+    .work-details4 {
+        padding-left:0;
+    }
+
+    .work-details3,
+    .work-details6 {
+        padding-right:0;
+    }
+
+    .landing-inner {
+        right:0px;
+        top:175px;
+    }
+
+    .work-display {
+        height:300px;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    #about p {
+        padding:0 1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+   .card {
+       width:65%;
+   }
+
+   .landing-inner {
+        right:10px;
+        top:200px;
+        width:450px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .landing-inner > h1 {
+        font-size:2.5rem;
+    }
+    .landing-inner {
+        right:10px;
+        top:200px;
+        width:320px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .landing-inner > h1 {
+        font-size:1.8rem;
+    }
+    .landing-inner {
+        right:-5px;
+        top:120px;
+        width:260px;
+    }
+    #landing p {
+        font-size:1rem;
+        padding-bottom:0.9rem;
+    }
+
+    .based {
+        font-size:1.2rem;
+    }
+}
