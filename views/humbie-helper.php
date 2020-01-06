@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 define( 'WEB_ROOT', $_SERVER['DOCUMENT_ROOT'] );
 include( WEB_ROOT.'/views/partials/header.php' );
 include( WEB_ROOT.'/views/partials/menu.php' );
@@ -21,7 +21,7 @@ include( WEB_ROOT.'/views/partials/menu.php' );
                 Web Development program co-ordinate with classmates and stay organized.There is a complete feature list on the GitHub page of this project. I developed the announcements 
                 feature, the file upload feature and the motivational quotes feature.
             </p>
-            <img src="../includes/assets/HumbieHelperProjects.png" alt="screen shot of the applications text search">
+            <img class="showcase-img" src="../includes/assets/HumbieHelperProjects.png" alt="screen shot of the applications text search">
             <p>
                 This was the second large project that I worked with a team to complete. We brainstormed 
                 ideas and came up with Humbie Helper which is an application design to help students of the 
@@ -29,13 +29,13 @@ include( WEB_ROOT.'/views/partials/menu.php' );
                 list on the GitHub page of this project. I developed the announcements feature, the file upload feature 
                 and the motivational quotes feature
             </p>
-            <img src="../includes/assets/HumbieHelperAnnouncements.png" alt="screen shot of the applications text search">
+            <img class="showcase-img" src="../includes/assets/HumbieHelperAnnouncements.png" alt="screen shot of the applications text search">
             <p>
                 The announcements feature allows students to add announcements to a project and all the other 
                 students in that project will see them along with the date and time the announcement was made. 
                 Announcements are stored in the database which I helped to design. (ERD <a href="../includes/assets/humbiehelper-erd.pdf">here</a>)
             </p>
-            <img src="../includes/assets/HumbieHelperFiles.png" alt="screen shot of the applications text search">
+            <img class="showcase-img" src="../includes/assets/HumbieHelperFiles.png" alt="screen shot of the applications text search">
             <p>
                 Motivational quotes takes the form of a random quote that appears in a dismissible banner when a 
                 user is logged in on the project view. The quotes are stored in the database retrieved using the RAND 

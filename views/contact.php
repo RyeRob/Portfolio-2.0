@@ -2,33 +2,32 @@
 define( 'WEB_ROOT', $_SERVER['DOCUMENT_ROOT'] );
 include( WEB_ROOT.'/views/partials/header.php' );
 include( WEB_ROOT.'/views/partials/menu.php' );
-include( WEB_ROOT.'/includes/form-logic.php' );
 ?>
 <div class="contact-page">
     <h1>Contact</h1>
-
+    <a class="form-link" href="mailto:ryan@ryanrobinson.com">ryan@ryanrobinson.com</a>
     <?php
         if(isset($_POST['submit'])){
             $to = "ryan@ryanrobinson.dev";
             $from = $_POST['sender-email'];
             $name = $_POST['sender-name'];
-            $subject = "Form submission";
+            $subject = "Message From Portfolio Site";
             $message = $name . " wrote the following:" . "\n\n" . $_POST['message'];
         
             $headers = "From:" . $from;
             mail($to,$subject,$message,$headers);
-            echo "Message sent. Thanks for reaching out I will get back to you soon. <br />";
-            echo "<a class='back-button' href='/'>Back to main page</a>";
+            echo "<br /> Thanks for the message! I'll get back to you soon. <br />";
+            echo "<a class='form-link' href='/'>Back to main page</a>";
         }
     ?>
-    <form id="contact-form" class="contact-form card" action="" method="post">
+    <form id="contact-form" class="contact-form contact-card card" action="" method="post">
         <label for="sender-name">Name</label>
-        <input type="text" name="sender-name">
+        <input type="text" name="sender-name" id="sender-name" required minlength="2">
         <label for="sender-email">E-mail</label>
-        <input type="text" name="sender-email">
+        <input type="email" name="sender-email" id="sender-email" required>
         <label for="message">Message</label>
-        <textarea rows="5" name="message" cols="30"></textarea>
-        <input class="contact-btn" type="submit" name="submit" value="Send">`
+        <textarea rows="5" name="message" cols="30" required minlength="8"></textarea>
+        <input class="contact-btn" type="submit" name="submit" value="Send">
     </form>
 </div>
 

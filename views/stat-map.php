@@ -21,7 +21,7 @@ include( WEB_ROOT.'/views/partials/menu.php' );
                 click and see information about the country they clicked on and the current weather 
                 in the nearest city.
             </p>
-            <h3>What I learned</h3>
+            <h3 class="learned-heading">What I learned</h3>
             <ul>
                 <li>React.js and ES6 basics</li>
                 <li>How to work with API's and JSON data</li>

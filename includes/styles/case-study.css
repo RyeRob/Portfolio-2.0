@@ -5,11 +5,9 @@ body{
     padding:0;
     
 }
-
 .wrap {
     min-height:100vh;
 }
-
 #case-study {
     max-width:960px;
     text-align:center;
@@ -17,44 +15,38 @@ body{
     margin:0 auto;
     margin-top:100px;
     margin-bottom:100px;
-    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 
-                0 1px 10px 0 rgba(0,0,0,0.12), 
-                0 2px 4px -1px rgba(0,0,0,0.3);
 }
-
 #case-study > header > h1 {
     padding-top:5rem;
     font-size:2rem;
 }
-
 #case-study > div > p {
     text-align: left;
 }
-
 #case-study > div > h2, p {
     padding:1rem 3rem 2rem 3rem;
 }
-
 #case-study > div > img {
-    max-width: 50vw;
-    max-height: 80vh;
     display:block;
     margin:0 auto;
     padding-top:3rem;
     padding-bottom:3rem;
 }
-
 #case-study a {
     color:#3399fe;
     padding:0.2rem;
     border-radius:10px;
 }
-
 #case-study a:hover {
    text-decoration: underline;
 }
-
 #case-study ul {
     list-style: none;
     font-size:1.1rem;
+}
+.learned-heading{
+    text-decoration:underline;
+}
+.showcase-img{
+    max-width:90%;
 }

@@ -7,7 +7,7 @@ include( WEB_ROOT.'/views/partials/menu.php' );
 <main class="wrap">
     <article id="case-study">
         <header>
-            <h1>Andre's Restaurant</h1>
+            <h1>Burger Restaurant Site</h1>
             <h2>HTML, CSS, JavaScript, jQuery</h2>
         </header>
         <div class="case-content">
@@ -15,23 +15,28 @@ include( WEB_ROOT.'/views/partials/menu.php' );
                 <li><a href="">Live Site</a></li>
             </ul>
             <p>
-                This was the first academic project I completed working in a group on the same site. It was also the first time I collaborated on 
-                a project using a version control system and Trello. The guidelines for this project were to create a restaurant site with any theme 
-                (we chose hamburgers) that had multiple required pages such as menu, site map, gift cards and others. As well as helping with the overall 
-                aesthetic of the site I designed and coded the gift cards and site map pages.
+                This acadmeic project was the first website I built with a team. I got my first experience using GitHub to collaborate on code in 
+                this project and learned a lot about merge conflicts. Each person was responsible for 2 unique web pages, I created pages for gift cards and the site map as well as helping 
+                with home page, navigation and overall design of the site.
             </p>
-            <img src="../includes/assets/Restaurant-GiftCards1.png" alt="screen shot of gift cards page">
+            <h3 class="learned-heading">What I Learned</h3>
+            <ul>
+                <li>- Git version control</li>
+                <li>- JavaScript form validation and jQuery basics</li>
+                <li>- Translating a design into a working web site</li>
+            </ul>
+            <img class="showcase-img" src="../includes/assets/Restaurant-GiftCards1.png" alt="screen shot of gift cards page">
             <p>
                 For the gift cards page, I made 3 different gift card designs in Photoshop and used JavaScript to switch between the images when the radio 
-                button is clicked, and a different amount is selected. The form has JavaScript validation with regex for all required fields and error 
-                messages that appear when something doesn’t match the regex or is left empty.
+                button is clicked. The form has JavaScript validation with regular expressions and error messages that appear when something doesn’t match the regex or is 
+                left empty.
             </p>
-            <img src="../includes/assets/Restaurant-SiteMap1.png" alt="screen shot of gift cards page with different card design">
+            <img class="showcase-img" src="../includes/assets/Restaurant-SiteMap1.png" alt="screen shot of gift cards page with different card design">
             <p> 
-                For the site map page, I used jQuery to show and hide lists with a simple animation when you click on a page title to give a description 
-                of that page and a direct link to the page.
+                For the site map page, I used jQuery to show and hide lists with an animation when you click on a page title to give a description 
+                of that page is and a direct link to it.
             </p>
-            <img src="../includes/assets/Restaurant-SiteMap2.png" alt="screen shot of the applications text search">
+            <img class="showcase-img" src="../includes/assets/Restaurant-SiteMap2.png" alt="screen shot of the applications text search">
         </div>
     </article>
 </main>
