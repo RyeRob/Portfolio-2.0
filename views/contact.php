@@ -5,7 +5,7 @@ include( WEB_ROOT.'/views/partials/menu.php' );
 ?>
 <div class="contact-page">
     <h1>Contact</h1>
-    <a class="form-link" href="mailto:ryan@ryanrobinson.com">ryan@ryanrobinson.com</a>
+    <a class="form-link" href="mailto:ryan@ryanrobinson.dev">ryan@ryanrobinson.dev</a>
     <?php
         if(isset($_POST['submit'])){
             $to = "ryan@ryanrobinson.dev";
@@ -21,12 +21,12 @@ include( WEB_ROOT.'/views/partials/menu.php' );
         }
     ?>
     <form id="contact-form" class="contact-form contact-card card" action="" method="post">
-        <label for="sender-name">Name</label>
-        <input type="text" name="sender-name" id="sender-name" required minlength="2">
-        <label for="sender-email">E-mail</label>
+        <label for="sender-name">Name:</label>
+        <input type="text" name="sender-name" id="sender-name" required minlength="1">
+        <label for="sender-email">E-mail:</label>
         <input type="email" name="sender-email" id="sender-email" required>
-        <label for="message">Message</label>
-        <textarea rows="5" name="message" cols="30" required minlength="8"></textarea>
+        <label for="message">Message:</label>
+        <textarea rows="5" name="message" id="message" cols="30" required minlength="8"></textarea>
         <input class="contact-btn" type="submit" name="submit" value="Send">
     </form>
 </div>

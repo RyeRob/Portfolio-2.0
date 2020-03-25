@@ -16,31 +16,26 @@ include( WEB_ROOT.'/views/partials/menu.php' );
                 <li><a href="https://github.com/porkalmighty/humbie-helper">GitHub Repository</a></li>
             </ul>
             <p>
-                This was the second large project that I worked with a team to complete. We brainstormed 
-                ideas and came up with Humbie Helper which is an application design to help students of the 
-                Web Development program co-ordinate with classmates and stay organized.There is a complete feature list on the GitHub page of this project. I developed the announcements 
-                feature, the file upload feature and the motivational quotes feature.
+                This was the second large project that I worked with a team to complete. We brainstormed ideas and came up with Humbie Helper which is an application 
+                designed to help students of the web development program co-ordinate with classmates and stay organized. There is a complete feature list on the GitHub 
+                page of this project. I developed the announcements, file upload and motivational quotes. If you want to try it you can login with 
+                the username: qwerty and password: qwerty.
             </p>
-            <img class="showcase-img" src="../includes/assets/HumbieHelperProjects.png" alt="screen shot of the applications text search">
+            <img class="showcase-img" src="../includes/assets/HumbieHelperProjects.png" alt="screenshot of a list of projects">
             <p>
-                This was the second large project that I worked with a team to complete. We brainstormed 
-                ideas and came up with Humbie Helper which is an application design to help students of the 
-                Web Development program co-ordinate with classmates and stay organized.There is a complete feature 
-                list on the GitHub page of this project. I developed the announcements feature, the file upload feature 
-                and the motivational quotes feature
+                The announcements section is specific to each project and is the main form of group communication in the application. Any student part of a project can add, 
+                edit and delete announcements made by themsevles to this section.Announcements are stored in the database using PDO. (Database ERD can be found here 
+                <a href="../includes/assets/humbiehelper-erd.pdf">here</a>)
             </p>
             <img class="showcase-img" src="../includes/assets/HumbieHelperAnnouncements.png" alt="screen shot of the applications text search">
             <p>
-                The announcements feature allows students to add announcements to a project and all the other 
-                students in that project will see them along with the date and time the announcement was made. 
-                Announcements are stored in the database which I helped to design. (ERD <a href="../includes/assets/humbiehelper-erd.pdf">here</a>)
+                Motivational quotes appear at random in a dismissible banner when a user is logged in and on the projects page. The quotes are 
+                stored in an MySQL database and retrieved using the RAND function with a limit of 1.
             </p>
             <img class="showcase-img" src="../includes/assets/HumbieHelperFiles.png" alt="screen shot of the applications text search">
             <p>
-                Motivational quotes takes the form of a random quote that appears in a dismissible banner when a 
-                user is logged in on the project view. The quotes are stored in the database retrieved using the RAND 
-                function with a limit of 1.The file upload feature stored the files in a folder on the server and creates a corresponding record of that file 
-                in the database which is modified or delete when the file is modified or deleted. There is validation that checks the 
+                The file upload feature stores files in a folder on the server and creates a corresponding record of that file 
+                in the database. When the file is renamed or deleted the database record is updated or removed. There is validation that checks the 
                 extension of the file that a user attempts to upload to make sure it matches one on a list.
             </p>
         </div>

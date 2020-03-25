@@ -21,6 +21,7 @@
 </nav>
 <div class="mobile-nav" id="mobile-nav">
     <img id="logo-mobile" src="./../includes/assets/logo.png" alt="site logo">
+    <label class="mobile-nav-label" for="open-mobile-nav">Open Navigation</label>
     <input type="checkbox" class="open-nav" id="open-mobile-nav">
     <div class="burger"><div></div></div>
     <div class="nav">

@@ -8,32 +8,26 @@ include( WEB_ROOT.'/views/partials/menu.php' );
     <article id="case-study">
         <header>
             <h1>GlobalMedic</h1>
-            <h2>HTML, CSS, PHP and WordPress</h2>
+            <h2>HTML, CSS, PHP, WordPress</h2>
+            <h2><a href="https://www.globalmedic.ca">Live Site</a></h2>
         </header>
         <div class="case-content">
-            <!-- <ul>
-                <li><a href="https://dev2.globalmedic.ca/">Live Site</a></li>
-            </ul> -->
             <p>
-                This website was done for GlobalMedic, a humanitarian relief organization based in Etobicoke. They were looking for a new site design with improved organization and workflow for staff.
+                GlobalMedic was looking to make their website easier navigate for visitors and more straightforward 
+                to update for staff. Their old website was overloaded with plugins that were slowing it down and causing accessibility issues.
+                After working with staff to finalize the design I created a custom WordPress theme for their site with customizer integration and 
+                page templates to allow them to have control over their whole site.
             </p>
-            <h3 class="learned-heading">What I Learned</h3>
-            <ul>
-                <li>- How manage a client project</li>
-                <li>- WordPress file structure and functions</li>
-                <li>- Implementing input form many people into a design</li>
-                <li>- How to create custom WordPress themes with customizer integration</li>
-            </ul>
-            <img class="showcase-img" src="../includes/assets/gm-responsive.png" alt="screen shot of globalmedic site">
+            <img class="gm-image" src="../includes/assets/screenshot-GM-site.png" alt="Screenshot of final Global Medic site" title="Screenshot of GlobalMedic site.">
             <p>
                 I made multiple mockups for this project and made changes with feedback from the staff at GlobalMedic. Below is the final desktop version of 
-                the mockup which I used Adobe Photoshop to create. I also made a mobile version of the mockup with a working menu in Adobe XD which can be found 
-                <a href="https://xd.adobe.com/view/c3c3b443-7165-4595-507b-bf741438b159-b5f2/">here.</a>
+                the mockup which I used Adobe Photoshop to create. I also made a mobile version of the mockup with a working menu in Adobe XD which can be found at
+                <a href="https://xd.adobe.com/view/c3c3b443-7165-4595-507b-bf741438b159-b5f2/">this link.</a>
             </p>
-            <img class="showcase-img" src="../includes/assets/gm-mockup-final.png">
+            <img class="gm-image" src="../includes/assets/gm-mockup-final.png" alt="Mock up of Global Medic website.">
+            <img class="showcase-img" src="../includes/assets/gm-responsive.png" alt="Desktop and mobile preview of Global Medic site.">
             <p>
             </p>
-            <img class="showcase-img" src="../includes/assets/gm-full-page.png">
         </div>
     </article>
 </main>
